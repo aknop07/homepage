@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="author" content="Andrzej Knop">
+    <meta name="description" content="Andrzej Knop - Frontend Developer portfolio">
+    <meta name="keywords" content="andrzej, knop, webportfolio, portfolio, frontend, developer">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="img/share.png">
+    <link rel="icon" href="img/icon.png">
+    <title>Andrzej Knop - Frontend Developer portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item"><a class="navigation__link" href="#home" title="Homepage">Home</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#about-me" title="About me">About Me</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#my-skillset" title="My skillset">My skillset</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#contact" title="Contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <header class="header" id="home">
+        <div class="header__container">
+            <p class="header__paragraph">
+                Hello! I'm
+            </p>
+            <h1 class="header__heading">
+                Andrzej Knop
+            </h1>
+            <p class="header__paragraph">
+                frontend developer
+            </p>
+        </div>
+        <div class="header__buttonContainer">
+            <button class="header__button js-button"><span class="js-buttonText">Show</span> social media</button>
+        </div>
+        <div class="header__icons header__hideIcons js-icons">
+            <div class="header__iconsContainer">
+                <a href="#" rel="noreferrer noopener" class="header__iconLink" title="Andrzej Knop Behance"><img src="/img/behance.png" height="20" alt="Behance icon"></a>
+                <a href="#" rel="noreferrer noopener" class="header__iconLink" title="Andrzej Knop Dribble"><img src="/img/dribble.png" height="20" alt="Dribble icon"></a>
+                <a href="#" rel="noreferrer noopener" class="header__iconLink" title="Andrzej Knop LinkedIn"><img src="/img/linkedin.png" height="20" alt="LinkedIn icon"></a>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="section__about" id="about-me">
+            <h2 class="section__aboutHeading">Why you should choose me?</h2>
+            <p class="section__aboutParagraph">I've been into graphics since I was a little kid. I started to write
+                first line
+                of HTML in primary school. Time to develop my skills has finally come - I'm learing how to use HTML/CSS
+                and JavaScript combined. With my skills in graphic design I want to be able to create projects that will
+                suit you 100%.</p>
+            <p class="section__aboutParagraph">Drawing and painting joined my skillset a few years back. It helped me to
+                develop my imagination and showed that all kinds of graphic design share the same rules.</p>
+        </section>
+        <section class="section__skillset" id="my-skillset">
+            <table class="section__skillsetTable">
+                <caption class="section__tableCaption">My skillset</caption>
+                <thead>
+                    <tr>
+                        <th scope="row" class="section__tableHeading">Skill</th>
+                        <th scope="col" class="section__tableHeading">Doing it for:</th>
+                        <th scope="col" class="section__tableHeading">Software used:</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row" class="section__tableHeading">HTML & CSS</th>
+                        <td class="section__tableCell">15 years ago (basics), learning properly just now</td>
+                        <td class="section__tableCell">Visual Studio Code</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="section__tableHeading">Javascript</th>
+                        <td class="section__tableCell">Just started</td>
+                        <td class="section__tableCell">Visual Studio Code</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="section__tableHeading">Webdesign</th>
+                        <td class="section__tableCell">3 years</td>
+                        <td class="section__tableCell">Adobe Photoshop</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" class="section__tableHeading">Digital painting</th>
+                        <td class="section__tableCell">2 years</td>
+                        <td class="section__tableCell">Adobe Photoshop & Procreate</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="section__contact" id="contact">
+            <h2 class="section__contactHeading">Contact Me</h2>
+            <div class="section__formContainer">
+                <form action="http://postman-echo.com/get" method="GET">
+                    <label class="section__formLabel" for="firstName">*First name:</label><br>
+                    <input class="section__formInput" type="text" id="firstName" name="firstName" placeholder="First name" minlength="3" maxlength="20" required><br>
+                    <label class="section__formLabel" for="lastName">Last name:</label><br>
+                    <input class="section__formInput" type="text" id="lastName" name="lastName" placeholder="Last name" minlength="3" maxlength="20"><br>
+                    <label class="section__formLabel" for="mail">*e-Mail</label><br>
+                    <input class="section__formInput" type="email" id="mail" name="mail" placeholder="Mail" required><br>
+                    <label class="section__formLabel" for="message">Message</label><br>
+                    <input class="section__formInput section__formMessage" type="text" id="message" name="message" placeholder="Message"><br>
+                    <p>* - required field</p>
+                    <button class="section__buttonInput">Submit</button>
+                    <button type="reset" class="section__buttonInput">Reset</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__paragraph">&copy; 2021 Andrzej Knop All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>

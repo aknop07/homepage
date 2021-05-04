@@ -1,0 +1,149 @@
+/* ----- aboutMe ----- */
+
+.section__about {
+    background: #f35860;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #e6e6e6;
+}
+
+.section__aboutHeading {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #e6e6e6;
+    padding-bottom: 30px;
+}
+
+.section__aboutParagraph {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #e6e6e6;
+    padding-bottom: 20px;
+}
+
+/* ----- skillset ----- */
+
+.section__skillset {
+    background: #e6e6e6;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #474747;
+    width: 100%;
+}
+
+.section__skillsetTable {
+    max-width: 60%;
+    margin: auto;
+    border-collapse: collapse;
+    overflow-x: auto;
+    background: #e6e6e6;
+}
+
+.section__tableCaption {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #757575;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.section__tableHeading {
+    background: #f35860;
+    padding: 10px;
+    color: #e6e6e6;
+    font-size: 14px;
+    text-align: center;
+}
+
+.section__tableCell {
+    padding: 15px;
+    text-align: center;
+}
+
+.section__tableCell:hover {
+    background: #9e9e9e;
+    color: #e6e6e6;
+}
+
+/* ----- contact ----- */
+
+.section__contact {
+    background: #f7f7f7;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #474747;
+    padding-top: 50px;
+}
+
+.section__contactHeading {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #757575;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.section__formContainer {
+    max-width: 100%;
+    text-align: center;
+}
+
+.section__formLabel {
+    padding: 15px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.section__formInput {
+    margin: 15px;
+    text-align: center;
+    background: #d8d8d8;
+    border-radius: 20px;
+    border: 3px solid #7e7e7e;
+    padding: 10px;
+    color: #030303;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.section__formMessage {
+    min-height: 100px;
+    max-height: 200px;
+}
+
+.section__formInput:focus {
+    outline: none;
+}
+
+.section__buttonInput {
+    margin: 15px;
+    text-align: center;
+    background: #f35860;
+    border-radius: 20px;
+    border: 3px solid #ffacb0;
+    padding: 10px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.section__buttonInput:hover {
+    background-color: #88393d;
+}

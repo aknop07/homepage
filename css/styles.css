@@ -1,0 +1,15 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+}
+
+.body {
+    max-width: 1000px;
+    margin: auto;
+    background-color: #eee;
+}

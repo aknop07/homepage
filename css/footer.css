@@ -1,0 +1,11 @@
+.footer {
+    background: #f35860;
+}
+
+.footer__paragraph {
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff;
+}
